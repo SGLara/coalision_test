@@ -27,7 +27,12 @@ To get started with the project, follow these steps:
     php artisan key:generate
     ```
 
-5. **Start the local development server**:
+5. **Run the migrations and seed the database**:
+    ```bash
+    php artisan migrate --seed
+    ```
+
+6. **Start the local development server**:
     ```bash
     php artisan serve
     ```
